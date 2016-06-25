@@ -13,4 +13,6 @@
     <!--activity_edit.xml-->
     <string name="hint_title">タイトル</string>
     <string name="hint_content">内容</string>
+    <!--edit.xml-->
+    <string name="action_delete">削除</string>
 </resources>

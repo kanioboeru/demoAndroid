@@ -7,6 +7,11 @@
     <dimen name="fab_margin">16dp</dimen>
     <!--分周器-->
     <dimen name="dividerHeight">8dp</dimen>
+    <!--編集テキストサイズ-->
+    <dimen name="editTextSize20">20sp</dimen>
+    <dimen name="editTextSize15">15sp</dimen>
+    <!--マージン 底-->
+    <dimen name="margin_bottom">5dip</dimen>
 
 
 </resources>
