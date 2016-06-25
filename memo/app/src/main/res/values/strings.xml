@@ -1,4 +1,14 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <!--アプリの名前を変更する-->
+    <string name="app_name">メモアプリ</string>
+    <!--メニューアイテム -->
     <string name="action_settings">Settings</string>
+    <!--mail.xml-->
+    <string name="action_add">追加</string>
+    <!--メニューリスト-->
+    <string name="action_menu1">メニュー１</string>
+    <string name="action_menu2">メニュー2</string>
+    <string name="action_menu3">メニュー3</string>
+    <string name="action_menu4">メニュー4</string>
+
 </resources>

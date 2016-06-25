@@ -1,6 +1,12 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--アクティビティ 水平　マージン-->
     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <!--アクティビティ　垂直　メージン-->
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <!--分周器-->
+    <dimen name="dividerHeight">8dp</dimen>
+
+
 </resources>
