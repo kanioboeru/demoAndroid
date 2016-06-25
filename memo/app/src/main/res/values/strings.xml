@@ -10,5 +10,7 @@
     <string name="action_menu2">メニュー2</string>
     <string name="action_menu3">メニュー3</string>
     <string name="action_menu4">メニュー4</string>
-
+    <!--activity_edit.xml-->
+    <string name="hint_title">タイトル</string>
+    <string name="hint_content">内容</string>
 </resources>
