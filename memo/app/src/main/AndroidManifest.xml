@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--編集アクティビティ-->
+        <activity android:name=".EditActivity"
+            android:label="@string/editactivity_name">
+        </activity>
     </application>
 
 </manifest>

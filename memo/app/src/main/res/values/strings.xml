@@ -3,7 +3,7 @@
     <string name="app_name">メモアプリ</string>
     <!--メニューアイテム -->
     <string name="action_settings">Settings</string>
-    <!--mail.xml-->
+    <!--mail.xml 追加メニュー-->
     <string name="action_add">追加</string>
     <!--メニューリスト-->
     <string name="action_menu1">メニュー１</string>
@@ -15,4 +15,10 @@
     <string name="hint_content">内容</string>
     <!--edit.xml-->
     <string name="action_delete">削除</string>
+    <!--編集題名-->
+    <string name="editactivity_name">編集</string>
+    <!--トスート内容-->
+    <string name="msg_destuction">メモを破棄しました</string>
+    <!--保存エラー-->
+    <string name="save_error">ファイル保存エラー</string>
 </resources>

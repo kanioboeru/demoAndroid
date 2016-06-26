@@ -1,5 +1,7 @@
 package com.example.hungnm.myapplication;
 
+import android.app.ActionBar;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,9 +10,19 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
+import java.util.List;
+import java.util.Map;
+
 public class Memo extends AppCompatActivity {
+//    ListView用アダプター
+    SimpleAdapter mAdapter = null;
+//    ListViewに設定するデータ
+    List<Map<String,String>> mList = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +41,37 @@ public class Memo extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+//        ActionBar actionBar = getActionBar();
+//        actionBar.show();
+
+//        ListView用アダプタを生成
+        mAdapter = new SimpleAdapter(this,mList,  android.R.layout.simple_list_item_2,
+                new String[]{"title","content"},new int[]{android.R.id.text1,android.R.id.text2});
+
+//        ListViewにアダプターをセット
+        ListView list = (ListView)findViewById(R.id.listView);
+        list.setAdapter(mAdapter);
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                編集画面に渡すデータをセットし、表示
+                Intent intent = new Intent(Memo.this,EditActivity.class);
+                intent.putExtra("NAME",mList.get(i).get("filename"));
+                intent.putExtra("TITLE",mList.get(i).get("title"));
+                intent.putExtra("CONTENT",mList.get(i).get("content"));
+                startActivity(intent);
+            }
+        });
+
+//        ListViewをコンテキストメニューに登録
+        registerForContextMenu(list);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
     }
 
     @Override
@@ -40,21 +83,18 @@ public class Memo extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_menu1) {
-            return true;
+        switch (item.getItemId()){
+            case R.id.action_add:
+//                編集画面への遷移処理
+                Intent intent = new Intent(Memo.this,EditActivity.class);
+                startActivity(intent);
+                break;
+            default:
+                break;
         }
-        if (id == R.id.action_menu2) {
-            return true;
-        }
-        if (id == R.id.action_menu3) {
-            return true;
-        }
+
+
 
         return super.onOptionsItemSelected(item);
     }

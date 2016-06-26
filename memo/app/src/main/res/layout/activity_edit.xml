@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
     <EditText
         android:id="@+id/eTxtTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:hint="@string/hint_title"
         android:textSize="@dimen/editTextSize20"
         android:layout_marginBottom="@dimen/margin_bottom"
@@ -16,9 +17,9 @@
     <EditText
         android:id="@+id/eTxtContent"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:hint="@string/hint_content"
         android:textSize="@dimen/editTextSize15"
-        android:gravity="top"
+        android:gravity="top|left"
         />
 </LinearLayout>

@@ -6,23 +6,12 @@
 
     <!--追加メニュー-->
 
-    <item android:id="@+id/action_menu1"
-        android:orderInCategory="2"
+    <item android:id="@+id/action_add"
+        android:orderInCategory="1"
         android:showAsAction="always"
-        android:title="@string/action_menu1"
+        android:title="@string/action_add"
         tools:ignore="AppCompatResource"
-        />
-    <item android:id="@+id/action_menu2"
-        android:orderInCategory="3"
-        android:showAsAction="ifRoom"
-        tools:ignore="AppCompatResource"
-        android:title="@string/action_menu2"/>
-
-    <item android:id="@+id/action_menu3"
-        android:orderInCategory="4"
-        android:showAsAction="ifRoom"
-        app:showAsAction="ifRoom"
-        android:title="@string/action_menu3"
+        android:icon="@android:drawable/ic_menu_add"
         />
 
 </menu>
