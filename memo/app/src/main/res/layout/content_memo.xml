@@ -11,17 +11,59 @@
     android:background="@color/listViewDivider"
     tools:context=".Memo">
 
-    <TextView
-        android:id="@+id/hello"
-        android:text="Hello World!"
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/listViewBackground"
-        android:divider="@color/listViewBackground"
-        android:dividerHeight="@dimen/dividerHeight"
-        ></ListView>
+        android:layout_height="wrap_content"
+        android:text="@string/btn_1"
+        android:id="@+id/btn_act1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_2"
+        android:id="@+id/btn_act2"
+        android:layout_below="@+id/btn_act1"
+        android:layout_alignRight="@+id/btn_act1"
+        android:layout_alignEnd="@+id/btn_act1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_3"
+        android:id="@+id/btn_act3"
+        android:layout_below="@+id/btn_act2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btn_act2"
+        android:layout_alignEnd="@+id/btn_act2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_4"
+        android:id="@+id/btn_act4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_act3"
+        android:layout_alignRight="@+id/btn_act3"
+        android:layout_alignEnd="@+id/btn_act3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_5"
+        android:id="@+id/btn_atc5"
+        android:layout_below="@+id/btn_act4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btn_act4"
+        android:layout_alignEnd="@+id/btn_act4" />
+
 </RelativeLayout>

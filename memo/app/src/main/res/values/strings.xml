@@ -21,4 +21,12 @@
     <string name="msg_destuction">メモを破棄しました</string>
     <!--保存エラー-->
     <string name="save_error">ファイル保存エラー</string>
+    <string name="btn_1">アクティビティ１をアクセスする</string>
+    <string name="btn_2">アクティビティ２をアクセスする</string>
+    <string name="btn_3">アクティビティ３をアクセスする</string>
+    <string name="btn_4">アクティビティ４をアクセスする</string>
+    <string name="btn_5">アクティビティ５をアクセスする</string>
+    <string name="tab1">タグ１</string>
+    <string name="tab2">タグ2</string>
+    <string name="tab3">タグ3</string>
 </resources>

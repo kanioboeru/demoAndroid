@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hungnm.myapplication" >
+    package="com.example.hungnm.myapplication">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".Memo"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--編集アクティビティ-->
-        <activity android:name=".EditActivity"
-            android:label="@string/editactivity_name">
+        <!-- 編集アクティビティ -->
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/editactivity_name" />
+        <activity android:name="demo.activity.Activity1" />
+        <activity android:name="demo.activity.Activity2">
         </activity>
+        <activity android:name="demo.activity.Activity3" />
+        <activity android:name="demo.activity.Activity4" />
+        <activity android:name="demo.activity.Activity5"></activity>
     </application>
 
 </manifest>
