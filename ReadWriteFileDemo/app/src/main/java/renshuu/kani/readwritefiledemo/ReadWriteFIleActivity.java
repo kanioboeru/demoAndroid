@@ -108,6 +108,5 @@ public class ReadWriteFIleActivity extends AppCompatActivity implements View.OnC
         intent.putExtra("Text",input.getText().toString());
         sendBroadcast(intent);
 
-
     }
 }
