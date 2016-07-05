@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TabHostDemo</string>
+    <string name="btnValue">Button</string>
+</resources>

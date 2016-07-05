@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/DATA/android/source/demoAndroid/Android-FragmentTabHost-demo-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="47cb084ae139ee5bafa52b90a7853ba122b8003f">
+        <dex dex="/Volumes/DATA/android/source/demoAndroid/Android-FragmentTabHost-demo-master/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_26030cf07ba0a00c07525732584a28c16a8123a2.jar" />
+    </item>
+    <item
+        jar="/Volumes/DATA/android/source/demoAndroid/Android-FragmentTabHost-demo-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ed2a74e01d0cd8ee61c648fd09991481cefc3e74">
+        <dex dex="/Volumes/DATA/android/source/demoAndroid/Android-FragmentTabHost-demo-master/app/build/intermediates/pre-dexed/debug/instant-run_ba2e69d6b7023d73dd06be431a61bb67debbcc33.jar" />
+    </item>
+    <item
+        jar="/Users/hungnm/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Volumes/DATA/android/source/demoAndroid/Android-FragmentTabHost-demo-master/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_b1d4a2e43135d83657590c0f1649139b682f3929.jar" />
+    </item>
+
+</items>
