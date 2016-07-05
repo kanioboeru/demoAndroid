@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ContextMenuDemo2</string>
+    <string name="delete">削除</string>
+    <string name="share">共有</string>
+    <string name="update">更新</string>
+</resources>
