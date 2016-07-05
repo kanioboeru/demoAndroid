@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FragmentViewPagerDemo</string>
+    <string name="largeText">大きい　テキスト</string>
+</resources>
