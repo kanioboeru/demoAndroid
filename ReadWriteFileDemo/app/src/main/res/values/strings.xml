@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReadWriteFileDemo</string>
+    <string name="btnRead">ファイルを読む</string>
+    <string name="btnWrite">ファイルを書込む</string>
+</resources>
