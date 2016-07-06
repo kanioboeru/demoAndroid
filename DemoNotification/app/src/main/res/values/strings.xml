@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoNotification</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- My Strings -->
+    <string name="create">Tạo thông báo</string>
+    <string name="setdata">Dữ liệu gửi đi:</string>
+    <string name="hint">Nhập dữ liệu</string>
+
+</resources>
