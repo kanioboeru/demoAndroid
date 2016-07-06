@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebViewDemo</string>
+    <string name="btnGo">遷移</string>
+    <string name="hint">URL</string>
+</resources>
