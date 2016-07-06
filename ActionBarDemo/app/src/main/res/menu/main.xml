@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.sample.ActionBarActivity"
+    >
+    <item android:id="@+id/action_add"
+        android:title="@string/action_add"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="10"/>
+</menu>
