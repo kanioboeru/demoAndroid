@@ -26,4 +26,20 @@
         android:layout_below="@+id/buttonClick"
         android:layout_alignParentStart="true"
          />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/btnPlay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:id="@+id/btnPause"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonClick" />
 </RelativeLayout>

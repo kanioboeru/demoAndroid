@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">O7planningDemo1</string>
+    <string name="btn1">ボタン１</string>
+    <string name="btn2">ボタン２</string>
+    <string name="btn3">ボタン３</string>
+    <string name="btn4">ボタン４</string>
+    <string name="btn5">ボタン５</string>
+</resources>
