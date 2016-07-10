@@ -9,4 +9,171 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="renshuu.kani.o7planningdemo1.ExampleActivity2">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/my_text_evt1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/my_text_evt2"
+        android:layout_below="@+id/my_text_evt1"
+        android:layout_alignLeft="@+id/my_text_evt1"
+        android:layout_alignStart="@+id/my_text_evt1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onLongPressTxt1"
+        android:layout_below="@+id/my_text_evt2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onLongPressTxt2"
+        android:layout_below="@+id/onLongPressTxt1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onSingleTapUpTxt1"
+        android:layout_below="@+id/onLongPressTxt2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onSingleTapUpTxt2"
+        android:layout_below="@+id/onSingleTapUpTxt1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onDownTxt1"
+        android:layout_below="@+id/onSingleTapUpTxt2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onDownTxt2"
+        android:layout_below="@+id/onDownTxt1"
+        android:layout_alignLeft="@+id/onDownTxt1"
+        android:layout_alignStart="@+id/onDownTxt1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onShowPressTxt1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onShowPressTxt2"
+        android:layout_below="@+id/onShowPressTxt1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="onScroll"
+        android:id="@+id/onScrollTxt1"
+        android:layout_below="@+id/onShowPressTxt2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onScrollTxt2"
+        android:layout_below="@+id/onScrollTxt1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="onSingleTapConfirmed"
+        android:id="@+id/onSingleTapConfirmedTxt1"
+        android:layout_below="@+id/onScrollTxt2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="onSingleTapConfirmed"
+        android:id="@+id/onSingleTapConfirmedTxt2"
+        android:layout_below="@+id/onSingleTapConfirmedTxt1"
+        android:layout_alignLeft="@+id/onScrollTxt2"
+        android:layout_alignStart="@+id/onScrollTxt2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="onDoubleTap"
+        android:id="@+id/onDoubleTapTxt1"
+        android:layout_below="@+id/onSingleTapConfirmedTxt2"
+        android:layout_alignRight="@+id/onScrollTxt1"
+        android:layout_alignEnd="@+id/onScrollTxt1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onDoubleTapTxt2"
+        android:layout_below="@+id/onDoubleTapTxt1"
+        android:layout_alignLeft="@+id/onDoubleTapTxt1"
+        android:layout_alignStart="@+id/onDoubleTapTxt1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="onDoubleTapEvent"
+        android:id="@+id/onDoubleTapEventTxt1"
+        android:layout_below="@+id/onDoubleTapTxt2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/onDoubleTapEventTxt2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/onDoubleTapTxt2"
+        android:layout_alignStart="@+id/onDoubleTapTxt2" />
 </RelativeLayout>

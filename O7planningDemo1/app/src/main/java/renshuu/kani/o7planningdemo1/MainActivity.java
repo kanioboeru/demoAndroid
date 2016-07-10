@@ -18,6 +18,24 @@ public class MainActivity extends AppCompatActivity {
 
         //ボタンを反映する
         buttonCall();
+        btn1Event();
+        btn2Event();
+        btn3Event();
+        btn4Event();
+        btn5Event();
+
+    }
+
+    private void buttonCall(){
+        btn1 = (Button)findViewById(R.id.btn1);
+        btn2 = (Button)findViewById(R.id.btn2);
+        btn3 = (Button)findViewById(R.id.btn3);
+        btn4 = (Button)findViewById(R.id.btn4);
+        btn5 = (Button)findViewById(R.id.btn5);
+
+    }
+
+    private void btn1Event(){
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,16 +49,54 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
 
+    private void btn2Event(){
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //インテントを作成して、データをExampleアクティビティに送る
+                Intent intentBtn2 = new Intent(MainActivity.this,ExampleActivity2.class);
+                MainActivity.this.startActivity(intentBtn2);
+
+            }
+        });
 
     }
 
-    private void buttonCall(){
-        btn1 = (Button)findViewById(R.id.btn1);
-        btn2 = (Button)findViewById(R.id.btn2);
-        btn3 = (Button)findViewById(R.id.btn3);
-        btn4 = (Button)findViewById(R.id.btn4);
-        btn5 = (Button)findViewById(R.id.btn5);
+    private void btn3Event(){
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //インテントを作成して、データをExampleアクティビティに送る
+                Intent intentBtn3 = new Intent(MainActivity.this,ExampleActivity3.class);
+                MainActivity.this.startActivity(intentBtn3);
 
+            }
+        });
+    }
+
+    private void btn4Event(){
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //インテントを作成して、データをExampleアクティビティに送る
+                Intent intentBtn4 = new Intent(MainActivity.this,ExampleActivity4.class);
+                MainActivity.this.startActivity(intentBtn4);
+
+            }
+        });
+    }
+
+    private void btn5Event(){
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //インテントを作成して、データをExampleアクティビティに送る
+                Intent intentBtn5 = new Intent(MainActivity.this,ExampleActivity5.class);
+                MainActivity.this.startActivity(intentBtn5);
+
+            }
+        });
     }
 }

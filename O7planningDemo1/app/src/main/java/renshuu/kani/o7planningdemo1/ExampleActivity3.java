@@ -10,4 +10,11 @@ public class ExampleActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_example3);
     }
+
+    public void showText(String topImageText,String bottomImageText){
+        Example3BottomFragment example3BottomFragment = (Example3BottomFragment)
+                this.getSupportFragmentManager().findFragmentById(R.id.example3_bottom_fragment);
+
+        example3BottomFragment.showText(topImageText,bottomImageText);
+    }
 }
